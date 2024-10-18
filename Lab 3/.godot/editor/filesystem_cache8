@@ -1,14 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1729281608
-Alexa_character_movement.tscn::PackedScene::4444729058686480701::1729275208::0::1::::<><>::res://character_body_2d.gd<>uid://cigfm4ldcew::::res://icon.svg
+::res://::1729282328
+Alexa_character_movement.tscn::PackedScene::4444729058686480701::1729281712::0::1::::<><>::res://character_body_2d.gd<>uid://cigfm4ldcew::::res://icon.svg
 character_body_2d.gd::GDScript::-1::1729228021::0::1::::<>CharacterBody2D<>::
 icon.svg::CompressedTexture2D::4625488700531726::1729228021::1729281609::1::::<><>::
 node_2d.gd::GDScript::-1::1729228021::0::1::::<>CharacterBody2D<>::
-node_2d.tscn::PackedScene::8618207730639769451::1729275208::0::1::::<><>::uid://dn86wwfekcfjs::::res://TileSet Folder/TileSet v1.0.png<>uid://df80nax18ma40::::res://spacebackground.jpg<>res://character_body_2d.gd
+node_2d.tscn::PackedScene::8618207730639769451::1729281712::0::1::::<><>::uid://dn86wwfekcfjs::::res://TileSet Folder/TileSet v1.0.png<>uid://df80nax18ma40::::res://spacebackground.jpg<>res://character_body_2d.gd
 rock.webp::CompressedTexture2D::6260866574512919213::1729270646::1729281609::1::::<><>::
 spacebackground.jpg::CompressedTexture2D::7579871912049757283::1729228021::1729281609::1::::<><>::
 static_body_2d.tscn::PackedScene::834024552078124887::1729281184::0::1::::<><>::uid://cvg2s71eldox6::::res://rock.webp
 tile_set.tres::TileSet::2750907567038679154::1729270650::0::1::::<><>::uid://dn86wwfekcfjs::::res://TileSet Folder/TileSet v1.0.png
-Ulises.tscn::PackedScene::7042967495131589122::1729281184::0::1::::<><>::res://character_body_2d.gd<>uid://dn86wwfekcfjs::::res://TileSet Folder/TileSet v1.0.png<>uid://cigfm4ldcew::::res://icon.svg<>uid://l5ai6qdhi6f8::::res://static_body_2d.tscn
-::res://TileSet Folder/::1729228346
+Ulises.tscn::PackedScene::7042967495131589122::1729281990::0::1::::<><>::res://character_body_2d.gd<>uid://dn86wwfekcfjs::::res://TileSet Folder/TileSet v1.0.png<>uid://cigfm4ldcew::::res://icon.svg<>uid://l5ai6qdhi6f8::::res://static_body_2d.tscn
+::res://TileSet Folder/::1729281609
 TileSet v1.0.png::CompressedTexture2D::8141764161932279880::1729228021::1729281609::1::::<><>::
