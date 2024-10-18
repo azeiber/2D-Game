@@ -1,0 +1,10 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1729226330
+character_body_2d.gd::GDScript::-1::1729219421::0::1::::<>CharacterBody2D<>::
+icon.svg::CompressedTexture2D::4625488700531726::1729219421::1729219538::1::::<><>::
+node_2d.gd::GDScript::-1::1729222807::0::1::::<>CharacterBody2D<>::
+node_2d.tscn::PackedScene::8618207730639769451::1729226083::0::1::::<><>::uid://dn86wwfekcfjs::::res://TileSet Folder/TileSet v1.0.png<>uid://df80nax18ma40::::res://spacebackground.jpg<>res://character_body_2d.gd
+spacebackground.jpg::CompressedTexture2D::7579871912049757283::1729219421::1729219538::1::::<><>::
+Ulises.tscn::PackedScene::7042967495131589122::1729226295::0::1::::<><>::
+::res://TileSet Folder/::1729224111
+TileSet v1.0.png::CompressedTexture2D::8141764161932279880::1729219421::1729224111::1::::<><>::
