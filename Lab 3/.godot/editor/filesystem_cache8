@@ -1,10 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1729226330
-character_body_2d.gd::GDScript::-1::1729219421::0::1::::<>CharacterBody2D<>::
-icon.svg::CompressedTexture2D::4625488700531726::1729219421::1729219538::1::::<><>::
-node_2d.gd::GDScript::-1::1729222807::0::1::::<>CharacterBody2D<>::
-node_2d.tscn::PackedScene::8618207730639769451::1729226083::0::1::::<><>::uid://dn86wwfekcfjs::::res://TileSet Folder/TileSet v1.0.png<>uid://df80nax18ma40::::res://spacebackground.jpg<>res://character_body_2d.gd
-spacebackground.jpg::CompressedTexture2D::7579871912049757283::1729219421::1729219538::1::::<><>::
-Ulises.tscn::PackedScene::7042967495131589122::1729226295::0::1::::<><>::
-::res://TileSet Folder/::1729224111
-TileSet v1.0.png::CompressedTexture2D::8141764161932279880::1729219421::1729224111::1::::<><>::
+::res://::1729229740
+Alexa_character_movement.tscn::PackedScene::4444729058686480701::1729228726::0::1::::<><>::res://character_body_2d.gd<>uid://cigfm4ldcew::::res://icon.svg
+character_body_2d.gd::GDScript::-1::1729227919::0::1::::<>CharacterBody2D<>::
+icon.svg::CompressedTexture2D::4625488700531726::1729226687::1729228012::1::::<><>::
+node_2d.gd::GDScript::-1::1729227919::0::1::::<>CharacterBody2D<>::
+node_2d.tscn::PackedScene::8618207730639769451::1729228726::0::1::::<><>::uid://dn86wwfekcfjs::::res://TileSet Folder/TileSet v1.0.png<>uid://df80nax18ma40::::res://spacebackground.jpg<>res://character_body_2d.gd
+rock.webp::CompressedTexture2D::6260866574512919213::1729229718::1729229740::1::::<><>::
+spacebackground.jpg::CompressedTexture2D::7579871912049757283::1729226687::1729228012::1::::<><>::
+Ulises.tscn::PackedScene::7042967495131589122::1729228726::0::1::::<><>::res://character_body_2d.gd<>uid://dn86wwfekcfjs::::res://TileSet Folder/TileSet v1.0.png<>uid://cigfm4ldcew::::res://icon.svg
+::res://TileSet Folder/::1729228012
+TileSet v1.0.png::CompressedTexture2D::8141764161932279880::1729227919::1729228012::1::::<><>::
