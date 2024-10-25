@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://tukpt7kee472"]
+
+[ext_resource type="PackedScene" uid="uid://buce72qf0om0f" path="res://background.tscn" id="1_qww6l"]
+[ext_resource type="PackedScene" uid="uid://b2r80lmllvvb6" path="res://character_movement.tscn" id="2_h32p7"]
+[ext_resource type="PackedScene" uid="uid://buld53v0rf843" path="res://tileset.tscn" id="3_p8p3c"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Background" parent="." instance=ExtResource("1_qww6l")]
+
+[node name="Character Movement" parent="." instance=ExtResource("2_h32p7")]
+position = Vector2(-5, 16)
+
+[node name="Tileset" parent="." instance=ExtResource("3_p8p3c")]
