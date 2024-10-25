@@ -1,0 +1,42 @@
+[gd_scene load_steps=5 format=3 uid="uid://buce72qf0om0f"]
+
+[ext_resource type="Texture2D" uid="uid://bjdsjaxvyurhx" path="res://Asset Folder/Starfield_07-512x512.png" id="1_lsypi"]
+[ext_resource type="Texture2D" uid="uid://7tt3vxo4rpqi" path="res://Asset Folder/Lava.png" id="2_ild3m"]
+[ext_resource type="Texture2D" uid="uid://dxgytlvklovm7" path="res://Asset Folder/Ice.png" id="3_6ncik"]
+[ext_resource type="Texture2D" uid="uid://b7xopv730h4jy" path="res://Asset Folder/Black_hole.png" id="4_iisie"]
+
+[node name="Background" type="Node2D"]
+
+[node name="Background" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="Background"]
+motion_mirroring = Vector2(350, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Background/ParallaxLayer"]
+position = Vector2(663.75, 320)
+scale = Vector2(2.61426, 1.26562)
+texture = ExtResource("1_lsypi")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="Background"]
+motion_mirroring = Vector2(300, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Background/ParallaxLayer2"]
+position = Vector2(133, 143)
+scale = Vector2(2.89404, 3.03711)
+texture = ExtResource("2_ild3m")
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="Background"]
+motion_mirroring = Vector2(272, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Background/ParallaxLayer3"]
+position = Vector2(880, 150)
+scale = Vector2(3.64356, 2.86003)
+texture = ExtResource("3_6ncik")
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="Background"]
+motion_mirroring = Vector2(272, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Background/ParallaxLayer4"]
+position = Vector2(220, 400)
+scale = Vector2(3.97689, 3.02669)
+texture = ExtResource("4_iisie")
