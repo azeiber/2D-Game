@@ -1,14 +1,15 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1729356177
-Alexa_character_movement.tscn::PackedScene::4444729058686480701::1729275339::0::1::::<><>::res://character_body_2d.gd<>uid://cigfm4ldcew::::res://icon.svg
-character_body_2d.gd::GDScript::-1::1729227919::0::1::::<>CharacterBody2D<>::
-icon.svg::CompressedTexture2D::4625488700531726::1729226687::1729356179::1::::<><>::
-node_2d.gd::GDScript::-1::1729227919::0::1::::<>CharacterBody2D<>::
-node_2d.tscn::PackedScene::8618207730639769451::1729275339::0::1::::<><>::uid://dn86wwfekcfjs::::res://TileSet Folder/TileSet v1.0.png<>uid://df80nax18ma40::::res://spacebackground.jpg<>res://character_body_2d.gd
-rock.webp::CompressedTexture2D::6260866574512919213::1729229718::1729356179::1::::<><>::
-spacebackground.jpg::CompressedTexture2D::7579871912049757283::1729226687::1729356179::1::::<><>::
-static_body_2d.tscn::PackedScene::834024552078124887::1729230874::0::1::::<><>::uid://cvg2s71eldox6::::res://rock.webp
-tile_set.tres::TileSet::2750907567038679154::1729274551::0::1::::<><>::uid://dn86wwfekcfjs::::res://TileSet Folder/TileSet v1.0.png
-Ulises.tscn::PackedScene::7042967495131589122::1729356127::0::1::::<><>::res://character_body_2d.gd<>uid://dn86wwfekcfjs::::res://TileSet Folder/TileSet v1.0.png<>uid://cigfm4ldcew::::res://icon.svg<>uid://l5ai6qdhi6f8::::res://static_body_2d.tscn
-::res://TileSet Folder/::1729228012
-TileSet v1.0.png::CompressedTexture2D::8141764161932279880::1729227919::1729356179::1::::<><>::
+::res://::1729877581
+Alexa_character_movement.tscn::PackedScene::4444729058686480701::1729291716::0::1::::<><>::res://character_body_2d.gd<>uid://cigfm4ldcew::::res://icon.svg
+character_body_2d.gd::GDScript::-1::1729228021::0::1::::<>CharacterBody2D<>::
+Farhat_rocks.tscn::PackedScene::3126838069369419140::1729386248::0::1::::<><>::uid://cvg2s71eldox6::::res://rock.webp<>uid://l5ai6qdhi6f8::::res://static_body_2d.tscn
+icon.svg::CompressedTexture2D::4625488700531726::1729228021::1729386289::1::::<><>::
+node_2d.gd::GDScript::-1::1729228021::0::1::::<>CharacterBody2D<>::
+node_2d.tscn::PackedScene::8618207730639769451::1729291716::0::1::::<><>::uid://dn86wwfekcfjs::::res://TileSet Folder/TileSet v1.0.png<>uid://df80nax18ma40::::res://spacebackground.jpg<>res://character_body_2d.gd
+rock.webp::CompressedTexture2D::6260866574512919213::1729270646::1729386289::1::::<><>::
+spacebackground.jpg::CompressedTexture2D::7579871912049757283::1729228021::1729386289::1::::<><>::
+static_body_2d.tscn::PackedScene::834024552078124887::1729291716::0::1::::<><>::uid://cvg2s71eldox6::::res://rock.webp
+tile_set.tres::TileSet::2750907567038679154::1729270650::0::1::::<><>::uid://dn86wwfekcfjs::::res://TileSet Folder/TileSet v1.0.png
+Ulises.tscn::PackedScene::7042967495131589122::1729386248::0::1::::<><>::res://character_body_2d.gd<>uid://dn86wwfekcfjs::::res://TileSet Folder/TileSet v1.0.png<>uid://cigfm4ldcew::::res://icon.svg<>uid://bkswtiqtxev3i::::res://Farhat_rocks.tscn<>uid://l5ai6qdhi6f8::::res://static_body_2d.tscn
+::res://TileSet Folder/::1729386289
+TileSet v1.0.png::CompressedTexture2D::8141764161932279880::1729228021::1729386289::1::::<><>::
