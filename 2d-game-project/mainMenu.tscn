@@ -95,6 +95,7 @@ text = "Options
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("3_qg51y")
+volume_db = -10.0
 autoplay = true
 
 [connection signal="button_down" from="VBoxContainer/Button" to="." method="_on_button_button_down"]
