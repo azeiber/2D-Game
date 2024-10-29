@@ -12,6 +12,7 @@ func _physics_process(delta: float) -> void:
 	# Handle jumping if the jump key is pressed and the character is on the floor.
 	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
+		$AudioStreamPlayer.play()
 
 	# Get horizontal input direction and apply movement.
 	var direction := Input.get_axis("move_left", "move_right")
