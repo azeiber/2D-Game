@@ -1,15 +1,17 @@
-[gd_scene load_steps=8 format=3 uid="uid://dxa4qojey6hml"]
+[gd_scene load_steps=9 format=3 uid="uid://dxa4qojey6hml"]
 
 [ext_resource type="Script" path="res://main_menu.gd" id="1_5n0rj"]
 [ext_resource type="Texture2D" uid="uid://bjdsjaxvyurhx" path="res://Asset Folder/Starfield_07-512x512.png" id="1_snlje"]
 [ext_resource type="AudioStream" uid="uid://c68e5gmv74hqj" path="res://Space Music Pack/menu.wav" id="3_qg51y"]
+[ext_resource type="FontFile" uid="uid://dgfxn7nc2t8lu" path="res://leading-college/Leading College.otf" id="3_vfxya"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mvvn2"]
 texture = ExtResource("1_snlje")
 modulate_color = Color(0.419813, 0.419813, 0.419813, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_tiuog"]
-font_size = 60
+font = ExtResource("3_vfxya")
+font_size = 80
 shadow_size = 20
 shadow_color = Color(0, 0, 0.25098, 0)
 
@@ -57,7 +59,8 @@ offset_right = 772.0
 offset_bottom = 210.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_font_sizes/font_size = 60
+theme_override_fonts/font = ExtResource("3_vfxya")
+theme_override_font_sizes/font_size = 80
 text = "AstroDodger "
 label_settings = SubResource("LabelSettings_tiuog")
 horizontal_alignment = 1
