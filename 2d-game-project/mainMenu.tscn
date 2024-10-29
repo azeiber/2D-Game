@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://dxa4qojey6hml"]
+[gd_scene load_steps=8 format=3 uid="uid://dxa4qojey6hml"]
 
 [ext_resource type="Script" path="res://main_menu.gd" id="1_5n0rj"]
 [ext_resource type="Texture2D" uid="uid://bjdsjaxvyurhx" path="res://Asset Folder/Starfield_07-512x512.png" id="1_snlje"]
+[ext_resource type="AudioStream" uid="uid://c68e5gmv74hqj" path="res://Space Music Pack/menu.wav" id="3_qg51y"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mvvn2"]
 texture = ExtResource("1_snlje")
@@ -91,5 +92,9 @@ theme_override_font_sizes/font_size = 25
 theme_override_styles/normal = SubResource("StyleBoxFlat_f0uho")
 text = "Options
 "
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_qg51y")
+autoplay = true
 
 [connection signal="button_down" from="VBoxContainer/Button" to="." method="_on_button_button_down"]
