@@ -9,7 +9,7 @@ size = Vector2(50, 52)
 
 [node name="Character Movement" type="Node2D"]
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." groups=["player"]]
 position = Vector2(31, 667)
 script = ExtResource("1_vrtwd")
 

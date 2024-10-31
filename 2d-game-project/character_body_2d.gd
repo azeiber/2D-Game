@@ -25,3 +25,10 @@ func _physics_process(delta: float) -> void:
 
 	# Move the character and handle collisions.
 	move_and_slide()
+	
+func _on_Asteroid_body_entered(body):
+	if body.is_in_group("player"): 
+		die()
+
+func die():
+	get_tree().reload_current_scene()  # Reloads the current scene

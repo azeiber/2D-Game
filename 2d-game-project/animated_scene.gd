@@ -14,4 +14,3 @@ func _process(delta: float) -> void:
 	elif !anim.is_playing(): #or anim.animation == "Jump":
 		anim.play("Run")
 	
-	
