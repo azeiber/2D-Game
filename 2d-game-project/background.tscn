@@ -11,11 +11,10 @@
 
 [node name="Background" type="ParallaxBackground" parent="."]
 
-[node name="Parallax2D" type="Parallax2D" parent="Background"]
-repeat_size = Vector2(4200, 0)
-autoscroll = Vector2(100, 100)
+[node name="Space Background" type="ParallaxLayer" parent="Background"]
+motion_scale = Vector2(0, 0)
 
-[node name="Sprite2D" type="Sprite2D" parent="Background/Parallax2D"]
+[node name="Sprite2D" type="Sprite2D" parent="Background/Space Background"]
 position = Vector2(2287.5, 1196)
 scale = Vector2(8.94336, 4.70703)
 texture = ExtResource("1_lsypi")
@@ -35,21 +34,41 @@ position = Vector2(204.176, 27.6139)
 texture = ExtResource("2_dl0hp")
 
 [node name="Sprite2D3" type="Sprite2D" parent="Parallax2D"]
-position = Vector2(421.235, 157.714)
+position = Vector2(1465.94, 39.1043)
 texture = ExtResource("4_iisie")
 
 [node name="Sprite2D4" type="Sprite2D" parent="Parallax2D"]
-position = Vector2(449.647, 51.7066)
+position = Vector2(1699.06, 106.564)
 texture = ExtResource("2_ild3m")
 
 [node name="Sprite2D5" type="Sprite2D" parent="Parallax2D"]
-position = Vector2(284.47, 96.3707)
+position = Vector2(995.999, 94.1468)
 texture = ExtResource("2_ild3m")
 
 [node name="Sprite2D6" type="Sprite2D" parent="Parallax2D"]
-position = Vector2(88.2352, 173.467)
+position = Vector2(703.764, 34.1004)
 texture = ExtResource("5_qekim")
 
 [node name="Sprite2D7" type="Sprite2D" parent="Parallax2D"]
-position = Vector2(615, 86.7336)
+position = Vector2(1311, 104.525)
 texture = ExtResource("3_6ncik")
+
+[node name="Sprite2D8" type="Sprite2D" parent="Parallax2D"]
+position = Vector2(380.117, 33.9151)
+texture = ExtResource("5_qekim")
+
+[node name="Sprite2D9" type="Sprite2D" parent="Parallax2D"]
+position = Vector2(556.588, 33.3591)
+texture = ExtResource("3_6ncik")
+
+[node name="Sprite2D10" type="Sprite2D" parent="Parallax2D"]
+position = Vector2(844.941, 30.9498)
+texture = ExtResource("2_ild3m")
+
+[node name="Sprite2D11" type="Sprite2D" parent="Parallax2D"]
+position = Vector2(1121.47, 41.1429)
+texture = ExtResource("5_qekim")
+
+[node name="Sprite2D12" type="Sprite2D" parent="Parallax2D"]
+position = Vector2(1844.29, 45.0348)
+texture = ExtResource("4_iisie")
