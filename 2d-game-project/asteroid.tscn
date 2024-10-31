@@ -18,4 +18,479 @@ texture = ExtResource("1_y3a5j")
 position = Vector2(-3, 2)
 shape = SubResource("CircleShape2D_8uxw1")
 
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(1158, -1)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D2/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(602, -7)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D3/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+position = Vector2(2015, -2)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D4"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D4/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D5" type="Sprite2D" parent="."]
+position = Vector2(2529, 3)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D5"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D5/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D6" type="Sprite2D" parent="."]
+position = Vector2(3535, -1)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D6"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D6/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D7" type="Sprite2D" parent="."]
+position = Vector2(3033, 9)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D7"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D7/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D8" type="Sprite2D" parent="."]
+position = Vector2(4018, 5)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D8"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D8/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D9" type="Sprite2D" parent="."]
+position = Vector2(4970, -3)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D9"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D9/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D10" type="Sprite2D" parent="."]
+position = Vector2(4563, -7)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D10"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D10/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D11" type="Sprite2D" parent="."]
+position = Vector2(5569, 1)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D11"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D11/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D12" type="Sprite2D" parent="."]
+position = Vector2(6043, -1)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D12"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D12/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D13" type="Sprite2D" parent="."]
+position = Vector2(6512, -1)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D13"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D13/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D14" type="Sprite2D" parent="."]
+position = Vector2(8574, -7)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D14"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D14/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D15" type="Sprite2D" parent="."]
+position = Vector2(8017, -1)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D15"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D15/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D16" type="Sprite2D" parent="."]
+position = Vector2(7516, 2)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D16"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D16/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D17" type="Sprite2D" parent="."]
+position = Vector2(7062, -3)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D17"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D17/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D19" type="Sprite2D" parent="."]
+position = Vector2(11987, -9)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D19"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D19/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D20" type="Sprite2D" parent="."]
+position = Vector2(12537, -11)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D20"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D20/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D21" type="Sprite2D" parent="."]
+position = Vector2(11516, -4)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D21"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D21/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D22" type="Sprite2D" parent="."]
+position = Vector2(10978, -11)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D22"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D22/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D23" type="Sprite2D" parent="."]
+position = Vector2(10508, 3)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D23"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D23/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D24" type="Sprite2D" parent="."]
+position = Vector2(10008, 1)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D24"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D24/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D25" type="Sprite2D" parent="."]
+position = Vector2(9532, -7)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D25"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D25/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D26" type="Sprite2D" parent="."]
+position = Vector2(13497, 0)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D26"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D26/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D27" type="Sprite2D" parent="."]
+position = Vector2(8967, -1)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D27"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D27/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D28" type="Sprite2D" parent="."]
+position = Vector2(12992, -2)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D28"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D28/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D29" type="Sprite2D" parent="."]
+position = Vector2(14508, -5)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D29"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D29/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D30" type="Sprite2D" parent="."]
+position = Vector2(14024, 10)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D30"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D30/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D18" type="Sprite2D" parent="."]
+position = Vector2(1522, 8)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D18"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D18/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D31" type="Sprite2D" parent="."]
+position = Vector2(10077, 116)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D31"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D31/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D32" type="Sprite2D" parent="."]
+position = Vector2(10846, 119)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D32"]
+position = Vector2(-7, 2)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D32/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D33" type="Sprite2D" parent="."]
+position = Vector2(11847, 118)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D33"]
+position = Vector2(1, -1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D33/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D34" type="Sprite2D" parent="."]
+position = Vector2(12863, 105)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D34"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D34/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D35" type="Sprite2D" parent="."]
+position = Vector2(13915, 111)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D35"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D35/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D36" type="Sprite2D" parent="."]
+position = Vector2(5127, 126)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D36"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D36/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D37" type="Sprite2D" parent="."]
+position = Vector2(6072, 102)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D37"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D37/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D38" type="Sprite2D" parent="."]
+position = Vector2(7071, 126)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D38"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D38/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D39" type="Sprite2D" parent="."]
+position = Vector2(8048, 135)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D39"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D39/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D40" type="Sprite2D" parent="."]
+position = Vector2(9056, 123)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D40"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D40/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D41" type="Sprite2D" parent="."]
+position = Vector2(248, 84)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D41"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D41/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D42" type="Sprite2D" parent="."]
+position = Vector2(1812, 127)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D42"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D42/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D43" type="Sprite2D" parent="."]
+position = Vector2(3362, 144)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D43"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D43/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
+[node name="Sprite2D44" type="Sprite2D" parent="."]
+position = Vector2(4377, 122)
+texture = ExtResource("1_y3a5j")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D44"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D44/Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_8uxw1")
+
 [connection signal="body_entered" from="Sprite2D/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D2/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D3/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D4/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D5/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D6/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D7/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D8/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D9/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D10/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D11/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D12/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D13/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D14/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D15/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D16/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D17/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D19/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D20/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D21/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D22/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D23/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D24/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D25/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D26/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D27/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D28/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D29/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D30/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D18/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D31/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D32/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D33/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D34/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D35/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D36/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D37/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D38/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D39/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D40/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D41/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D42/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D43/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sprite2D44/Area2D" to="." method="_on_area_2d_body_entered"]
