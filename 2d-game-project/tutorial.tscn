@@ -1,0 +1,96 @@
+[gd_scene load_steps=13 format=3 uid="uid://wmeic5s3jlyc"]
+
+[ext_resource type="Script" path="res://tutorial.gd" id="1_nbxny"]
+[ext_resource type="FontFile" uid="uid://d63kvj1hgqna" path="res://double-pixel-7/double_pixel-7.ttf" id="1_y10gh"]
+[ext_resource type="Texture2D" uid="uid://bjdsjaxvyurhx" path="res://Asset Folder/Starfield_07-512x512.png" id="2_q2vnb"]
+[ext_resource type="AudioStream" uid="uid://c68e5gmv74hqj" path="res://Space Music Pack/menu.wav" id="4_becya"]
+[ext_resource type="AudioStream" uid="uid://2hee47nuc3ys" path="res://Space Music Pack/loading.wav" id="4_wwxbn"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jo3nx"]
+texture = ExtResource("2_q2vnb")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_51irs"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_muksb"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_g8rrp"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_tkt4m"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_hspq7"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3ip0a"]
+
+[node name="Tutorial" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_nbxny")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_jo3nx")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.716
+anchor_bottom = 1.68
+offset_left = 539.0
+offset_top = 181.0
+offset_right = 621.36
+offset_bottom = 168.8
+theme_override_fonts/font = ExtResource("1_y10gh")
+theme_override_font_sizes/font_size = 40
+text = "Tutorial"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 385.0
+offset_top = 243.0
+offset_right = 799.0
+offset_bottom = 469.0
+text = "In this game, your goal is to reach the finish line while dodging asteroids. Here’s how to play:
+
+1. Move Left/Right: Use the arrow keys (or A and D) to move.
+2. Jump: Press the spacebar (or up arrow) to jump over obstacles.
+3. Dodge Asteroids: Watch out for falling asteroids! Keep moving to avoid them.
+4. Reach the Finish Line: Make it to the end of each level without getting hit to progress.
+
+Good luck! Let's see how far you can go!
+
+"
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 855.0
+offset_top = 106.0
+offset_right = 908.0
+offset_bottom = 257.0
+theme_override_fonts/font = ExtResource("1_y10gh")
+theme_override_font_sizes/font_size = 120
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_51irs")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_muksb")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_g8rrp")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_tkt4m")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_hspq7")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_3ip0a")
+text = "x"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Button"]
+stream = ExtResource("4_wwxbn")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_becya")
+volume_db = -10.775
+autoplay = true
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

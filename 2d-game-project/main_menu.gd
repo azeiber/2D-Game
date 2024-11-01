@@ -1,4 +1,5 @@
 extends Control
-const main_level = preload("res://level1.tscn")
-func _on_button_button_down() -> void:
-	get_tree().change_scene_to_packed(main_level)
+const tutorial = preload("res://tutorial.tscn")
+func _on_button_pressed() -> void:
+	$VBoxContainer/Button/AudioStreamPlayer.play()
+	get_tree().change_scene_to_packed(tutorial)

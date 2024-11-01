@@ -1,9 +1,10 @@
-[gd_scene load_steps=9 format=3 uid="uid://dxa4qojey6hml"]
+[gd_scene load_steps=10 format=3 uid="uid://dxa4qojey6hml"]
 
 [ext_resource type="Script" path="res://main_menu.gd" id="1_5n0rj"]
 [ext_resource type="Texture2D" uid="uid://bjdsjaxvyurhx" path="res://Asset Folder/Starfield_07-512x512.png" id="1_snlje"]
 [ext_resource type="AudioStream" uid="uid://c68e5gmv74hqj" path="res://Space Music Pack/menu.wav" id="3_qg51y"]
 [ext_resource type="FontFile" uid="uid://dgfxn7nc2t8lu" path="res://leading-college/Leading College.otf" id="3_vfxya"]
+[ext_resource type="AudioStream" uid="uid://ugvvsmbhx0n8" path="res://Space Music Pack/fx/start-level.wav" id="4_0rvxs"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mvvn2"]
 texture = ExtResource("1_snlje")
@@ -16,14 +17,14 @@ shadow_size = 20
 shadow_color = Color(0, 0, 0.25098, 0)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6vpsf"]
-bg_color = Color(0.0745098, 0.0784314, 0.305882, 1)
+bg_color = Color(0.124773, 0.103148, 0.276847, 1)
 corner_radius_top_left = 8
 corner_radius_top_right = 8
 corner_radius_bottom_right = 8
 corner_radius_bottom_left = 8
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f0uho"]
-bg_color = Color(0.0745098, 0.0784314, 0.305882, 1)
+bg_color = Color(0.12549, 0.101961, 0.278431, 1)
 corner_radius_top_left = 8
 corner_radius_top_right = 8
 corner_radius_bottom_right = 8
@@ -84,10 +85,14 @@ size_flags_vertical = 4
 [node name="Button" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 4
-theme_override_font_sizes/font_size = 25
+theme_override_font_sizes/font_size = 40
 theme_override_styles/normal = SubResource("StyleBoxFlat_6vpsf")
 text = "Start Game 
 "
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="VBoxContainer/Button"]
+stream = ExtResource("4_0rvxs")
+volume_db = 24.0
 
 [node name="Button2" type="Button" parent="VBoxContainer"]
 layout_mode = 2
@@ -102,3 +107,4 @@ volume_db = -10.0
 autoplay = true
 
 [connection signal="button_down" from="VBoxContainer/Button" to="." method="_on_button_button_down"]
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]
