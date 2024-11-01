@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://tukpt7kee472"]
+[gd_scene load_steps=6 format=3 uid="uid://tukpt7kee472"]
 
 [ext_resource type="PackedScene" uid="uid://buce72qf0om0f" path="res://background.tscn" id="1_qww6l"]
 [ext_resource type="PackedScene" uid="uid://b2r80lmllvvb6" path="res://character_movement.tscn" id="2_h32p7"]
 [ext_resource type="PackedScene" uid="uid://buld53v0rf843" path="res://tileset.tscn" id="3_p8p3c"]
 [ext_resource type="PackedScene" uid="uid://wmeic5s3jlyc" path="res://tutorial.tscn" id="4_fevcq"]
+[ext_resource type="PackedScene" uid="uid://xiuag8rbxbd0" path="res://finish_line.tscn" id="5_a84ly"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -15,3 +16,6 @@ position = Vector2(-5, 16)
 [node name="Tileset" parent="." instance=ExtResource("3_p8p3c")]
 
 [node name="Tutorial" parent="." instance=ExtResource("4_fevcq")]
+
+[node name="FinishLine" parent="." instance=ExtResource("5_a84ly")]
+position = Vector2(13440, 546)

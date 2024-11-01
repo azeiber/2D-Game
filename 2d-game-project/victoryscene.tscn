@@ -1,0 +1,75 @@
+[gd_scene load_steps=7 format=3 uid="uid://bhjlhb37ykjob"]
+
+[ext_resource type="Script" path="res://victoryscene.gd" id="1_420xr"]
+[ext_resource type="Texture2D" uid="uid://bjdsjaxvyurhx" path="res://Asset Folder/Starfield_07-512x512.png" id="2_iykpd"]
+[ext_resource type="FontFile" uid="uid://d63kvj1hgqna" path="res://double-pixel-7/double_pixel-7.ttf" id="3_5sqr5"]
+[ext_resource type="AudioStream" uid="uid://ubr2h0j022iv" path="res://Space Music Pack/meet-the-princess.wav" id="4_lcwk6"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xd1fk"]
+texture = ExtResource("2_iykpd")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dwqru"]
+bg_color = Color(0.0941176, 0.141176, 0.290196, 0.737255)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.0779641, 0.214916, 0.362382, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[node name="victoryscene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_420xr")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_xd1fk")
+
+[node name="Label" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 438.0
+offset_top = 170.0
+offset_right = 715.0
+offset_bottom = 370.0
+theme_override_fonts/font = ExtResource("3_5sqr5")
+theme_override_font_sizes/font_size = 200
+text = "Win!!"
+
+[node name="Button" type="Button" parent="Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -136.0
+offset_top = 60.0
+offset_right = 120.0
+offset_bottom = 146.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.581776, 0.629826, 0.757722, 1)
+theme_override_fonts/font = ExtResource("3_5sqr5")
+theme_override_font_sizes/font_size = 44
+theme_override_styles/normal = SubResource("StyleBoxFlat_dwqru")
+text = "Back To Home"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_lcwk6")
+volume_db = -10.895
+autoplay = true
+
+[connection signal="pressed" from="Panel/Button" to="." method="_on_button_pressed"]
