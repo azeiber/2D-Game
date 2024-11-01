@@ -125,7 +125,7 @@ text = "Start Game
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="VBoxContainer/Button"]
 stream = ExtResource("4_0rvxs")
-volume_db = 24.0
+volume_db = 10.0
 
 [node name="Button2" type="Button" parent="VBoxContainer"]
 layout_mode = 2

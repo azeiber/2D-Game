@@ -1,10 +1,10 @@
 [gd_scene load_steps=4 format=3 uid="uid://xiuag8rbxbd0"]
 
-[ext_resource type="Texture2D" uid="uid://b8mggxms8j2l7" path="res://Finish-Line-PNG-Images.png" id="1_4mnfn"]
 [ext_resource type="Script" path="res://finish_line.gd" id="1_cehlr"]
+[ext_resource type="Texture2D" uid="uid://7ln478k5yu31" path="res://finishlinepurple.png" id="2_bve05"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ttydm"]
-size = Vector2(109.5, 144.5)
+size = Vector2(51.375, 352.25)
 
 [node name="FinishLine" type="Node2D"]
 script = ExtResource("1_cehlr")
@@ -12,10 +12,10 @@ script = ExtResource("1_cehlr")
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(844, 305)
+position = Vector2(824.312, 192)
 shape = SubResource("RectangleShape2D_ttydm")
 
 [node name="Sprite2D" type="Sprite2D" parent="Area2D"]
-position = Vector2(798.667, 332)
-scale = Vector2(0.753333, 0.759167)
-texture = ExtResource("1_4mnfn")
+position = Vector2(822.37, 342.087)
+scale = Vector2(0.123555, 0.117526)
+texture = ExtResource("2_bve05")

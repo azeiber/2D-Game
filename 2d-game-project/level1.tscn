@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://dn56m6tbvjaef"]
+[gd_scene load_steps=7 format=3 uid="uid://dn56m6tbvjaef"]
 
 [ext_resource type="PackedScene" uid="uid://buce72qf0om0f" path="res://background.tscn" id="1_8p22m"]
 [ext_resource type="PackedScene" uid="uid://b2r80lmllvvb6" path="res://character_movement.tscn" id="2_e270m"]
 [ext_resource type="AudioStream" uid="uid://2hee47nuc3ys" path="res://Space Music Pack/loading.wav" id="4_4w4kw"]
 [ext_resource type="PackedScene" uid="uid://buld53v0rf843" path="res://tileset.tscn" id="4_6krcr"]
 [ext_resource type="Script" path="res://node_2d.gd" id="5_6tsax"]
+[ext_resource type="PackedScene" uid="uid://xiuag8rbxbd0" path="res://finish_line.tscn" id="6_vxmw2"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -24,3 +25,6 @@ autoplay = true
 
 [node name="Node2D" type="Node2D" parent="."]
 script = ExtResource("5_6tsax")
+
+[node name="FinishLine" parent="." instance=ExtResource("6_vxmw2")]
+position = Vector2(10751, 551)
