@@ -11,6 +11,6 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if Input.is_action_just_pressed("Jump"):
 		anim.play("Jump")
-	elif !anim.is_playing(): #or anim.animation == "Jump":
+	elif !anim.is_playing():
 		anim.play("Run")
 	
