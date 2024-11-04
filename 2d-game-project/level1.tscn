@@ -28,3 +28,17 @@ script = ExtResource("5_6tsax")
 
 [node name="FinishLine" parent="." instance=ExtResource("6_vxmw2")]
 position = Vector2(10751, 551)
+
+[node name="DistanceLabel" type="Label" parent="."]
+offset_left = 858.0
+offset_top = 15.0
+offset_right = 1013.0
+offset_bottom = 57.0
+text = "Distance: "
+
+[node name="HighestDistanceLevel" type="Label" parent="."]
+offset_left = 859.0
+offset_top = 71.0
+offset_right = 995.0
+offset_bottom = 124.0
+text = "Highest Distance: "
