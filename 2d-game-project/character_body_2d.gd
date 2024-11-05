@@ -8,21 +8,14 @@ var distance_traveled: float = 0
 var highest_distance: float = 0
 var starting_position: Vector2
 
-#@onready var distance_label = $"/root/level1/Node2D/DistanceLabel"
-#@onready var highest_distance_label = $"/root/level1/Node2D/HighestDistanceLabel"
+@onready var distance_label = $DistanceLabel
 
-@onready var distance_label = get_tree().root.get_node("level1/Node2D/DistanceLabel")
-@onready var highest_distance_label = get_tree().root.get_node("level1/Node2D/HighestDistanceLabel")
 func _ready():
 	starting_position = position
 	
 func _process(delta):
 	distance_traveled = position.x - starting_position.x
 	distance_label.text = "Distance: " + str(distance_traveled)
-	
-	if distance_traveled > highest_distance:
-		highest_distance = distance_traveled
-		highest_distance_label.text = "Highest Distance: " + str(highest_distance)
 
 func _physics_process(delta: float) -> void:
 	# Apply gravity if the character is not on the floor.

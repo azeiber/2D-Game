@@ -21,3 +21,9 @@ shape = SubResource("RectangleShape2D_gqj22")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="CharacterBody2D"]
 stream = ExtResource("3_oidgu")
+
+[node name="DistanceLabel" type="Label" parent="CharacterBody2D"]
+offset_left = 433.0
+offset_top = -316.0
+offset_right = 473.0
+offset_bottom = -293.0
